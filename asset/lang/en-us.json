@@ -1,0 +1,13 @@
+{
+    "about-message": "About\nVersion: beta-0.1\nDownload from: github\nMade by: Collin2022@github.com",
+    "title": "Phoenix IDE",
+    "menu": [
+        "File",
+        "Edit",
+        "View",
+        "Command",
+        "Run",
+        "Terminal",
+        "About"
+    ]
+}

@@ -1,10 +1,11 @@
 {
-    "about-message": "关于\n版本：beta0.1-简体中文\n作者：Collin2022",
     "enable-autosave": true,
     "enable-codehighlight": true,
     "enable-autocomplete": true, 
+    "lang": "zh-cn",
     "font": "Microsoft Yahei Light",
     "font-size": 18,
     "version": "github-windows-version",
-    "encoding": "utf-8"
+    "encoding": "utf-8",
+    "save-warning": true
 }

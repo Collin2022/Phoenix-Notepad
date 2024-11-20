@@ -1,0 +1,13 @@
+{
+    "about-message": "关于\n版本：beta-0.1\n渠道：github\n制作人：Collin2022(储子宸)@github.com",
+    "title": "火凤IDE",
+    "menu": [
+        "文件",
+        "编辑",
+        "视图",
+        "命令",
+        "运行",
+        "终端",
+        "关于"
+    ]
+}
