@@ -1,5 +1,5 @@
 # 导入基础库文件
-import tkinter
+import tkinter as tk
 from tkinter import ttk
 from tkinter import messagebox
 from tkinter import filedialog
@@ -22,7 +22,7 @@ lang = settings["lang"]
 with open("./asset/lang/{}.json".format(lang), "r", encoding="utf-8") as fp:
     lang_data = json.load(fp)
 lang_title = lang_data["title"]
-lang_about_message = lang_data["about_data"]
+lang_about_message = lang_data["about-message"]
 lang_file = lang_data["menu"][0]
 lang_edit = lang_data["menu"][1]
 lang_view = lang_data["menu"][2]
@@ -30,5 +30,16 @@ lang_command = lang_data["menu"][3]
 lang_run = lang_data["menu"][4]
 lang_terminal = lang_data["menu"][5]
 lang_about = lang_data["menu"][6]
+
+# 创建窗口
+root = tk.Tk()
+root.title(lang_title)
+root.geometry("800x600+100+100")
+
+# 创建菜单栏
+menubar = tk.Menu()
+root.config(menu=menubar)
+
+# 文件
 
 
